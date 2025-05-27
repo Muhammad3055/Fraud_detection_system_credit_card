@@ -15,7 +15,19 @@ Model evaluation (Precision, Recall, F1-score)
 CLI interface for manual transaction input and fraud prediction
 
  Requirements
-bash
-Copy
-Edit
+
 pip install pandas numpy scikit-learn imbalanced-learn
+
+How to Run
+Place the dataset (creditcard.csv) in the same directory as the script/  or place the directory location of file 
+
+Run the script:
+
+download the python fraud_detection_system_credit_card.py
+Sample Output:
+
+Enter values for a new transaction (30 features as comma-separated values):
+Paste values:
+0.1, -1.3, 2.5, ..., 99.00
+
+Prediction: Legitimate Transaction / Fradulent
