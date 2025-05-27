@@ -4,8 +4,9 @@ A machine learning project that detects fraudulent transactions using the Credit
 
  Dataset
 The dataset used is the Credit Card Fraud Detection dataset, which contains anonymized features (V1–V28), Time, Amount, and a Class label (0 = Legitimate, 1 = Fraud).
-
-🛠 Features
+link of dataset:
+"https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud/data"
+ Features
 Data preprocessing with scaling and imbalance handling (SMOTE)
 
 Trained using Random Forest Classifier
@@ -13,6 +14,7 @@ Trained using Random Forest Classifier
 Model evaluation (Precision, Recall, F1-score)
 
 CLI interface for manual transaction input and fraud prediction
+
 
  Requirements
 
